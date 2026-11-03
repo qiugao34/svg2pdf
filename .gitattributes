@@ -1,0 +1,4 @@
+# 这两个脚本必须是原样字节：vbs 是 UTF-16LE，ps1 会带中文
+*.vbs binary
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
